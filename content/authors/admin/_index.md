@@ -60,10 +60,12 @@ education:
     date_start: 2018-09-01
     date_end: 2025-08-31
     summary: |
-      Thesis on _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Supervised by [John Pearson, PhD](https://pearsonlab.github.io/).
+      Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Supervised by [John Pearson, PhD](https://pearsonlab.github.io/).
+      
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
+    
   - area: Concurrent MS Electrical & Computer Engineering (ECE): Data Analytics and Machine Learning
     institution: Duke University
     date_start: 2018-09-01
@@ -192,30 +194,34 @@ awards:
     date: '2024-05'
     awarder: 'Gordon Research Conference and Gordon Research Seminar on the Neural Mechanisms of Acoustic Communication (NMAC GRC and GRS)'
     icon: grc_logo
+
     # summary: |
-    #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+    #
+
   - title: 'Travel Award'
     url: https://indico.flatironinstitute.org/event/2800/
     date: '2022-06'
     awarder: 'Flatiron Institute’s Center for Computational Neuroscience 2022 Workshop on Calcium & Voltage Imaging Analysis Travel Award from the Simons Foundation'
     icon: caiman_workshop
+
     # summary: |
-    #   Learned:
-    #   - Synthesize your own blockchain solutions
-    #   - Gain an in-depth understanding of the specific mechanics of Bitcoin
-    #   - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+    #
+
   - title: 'National Science Foundation Graduate Research Fellowship (NSF GRFP): NSF GRFP DGE 16-44868'
     url: https://news.emory.edu/stories/2018/05/er_nsf_fellowship/campus.html
     date: '2018-2023'
     awarder: 'National Science Foundation'
     icon: nsf
+
     # summary: |
-    #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    #
+
   - title: 'Highest Honors (_summa cum laude_) in Neuroscience and Behavioral Biology'
     url: https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en
     date: '2018-04'
     awarder: 'Emory University'
     icon: emory
+
     # summary: |
     #   One of twelve of seventen (12 Highest, 5 High) undergraduates in the Neuroscience and Behavioral Biology Honors Program at Emory University who received Highest Honors in Neuroscience and Behavioral Biology awarded to my written thesis and oral defense judged by a committee of three Emory University faculty members: Committee: Gordon Berman, PhD (advisor); Robert Liu, PhD; Joseph Manns, PhD; Samuel (Sam) Sober, PhD).
 ---
