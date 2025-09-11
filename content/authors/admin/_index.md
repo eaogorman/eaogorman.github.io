@@ -83,7 +83,7 @@ education:
     date_end: 2018-05-01
     summary: |
       Honors and awards included:
-      - Highest Honors (\textit{summa cum laude}) in Neuroscience & Behavioral Biology awarded to my Honors Thesis 
+      - Highest Honors (_summa cum laude_) in Neuroscience & Behavioral Biology awarded to my Honors Thesis 
       - Nu Rho Sci (Neuroscience) Honor Society
       - Phi Sigma Tau (Philosophy) Honor Society
       - Dean’s List Fall 2017
@@ -138,7 +138,7 @@ skills:
         percent: 100
         icon: chart-bar
       - name: High-Performance Computing (HPC) Environments
-        description: 'Docker, Apptainer (formerly Singularity)'
+        description: 'Apptainer (formerly Singularity), Docker'
         percent: 100
         icon: docker
       - name: R and RStudio
@@ -150,7 +150,7 @@ skills:
         percent: 100
         icon: matlab
       - name: LabVIEW
-        description: 'DAQ integration, \0{}MQ message-passing library'
+        description: 'DAQ integration, 0MQ message-passing library'
         percent: 100
         icon: labview
       - name: bash/zsh
@@ -211,7 +211,7 @@ awards:
     icon: nsf
     # summary: |
     #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
-  - title: 'Highest Honors (\texit{summa cum laude}) in Neuroscience and Behavioral Biology'
+  - title: 'Highest Honors (\textit{summa cum laude}) in Neuroscience and Behavioral Biology'
     url: https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en
     date: '2018-04'
     awarder: 'Emory University'
