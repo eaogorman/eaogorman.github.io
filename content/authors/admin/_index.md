@@ -26,9 +26,9 @@ highlight_name: true
 role: Computational Neurobiologist
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Duke University Department of Neurobiology, School of Medicine
-    url: https://www.neuro.duke.edu/
+# organizations:
+#   - name: Duke University Department of Neurobiology, School of Medicine
+#     url: https://www.neuro.duke.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -50,9 +50,10 @@ profiles:
     url: https://orcid.org/0000-0002-2401-2730
 
 interests:
+  - Adaptive Behavior
   - Computational Neurobiology
   - Data Analytics and Machine & Deep Learning
-  - Computational Nethods Development for Neuroscience
+  - Computational Methods Development for Neuroscience
 
 education:
   - area: PhD Neurobiology
@@ -60,12 +61,12 @@ education:
     date_start: 2018-09-01
     date_end: 2025-08-31
     summary: |
-      Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Supervised by [John Pearson, PhD](https://pearsonlab.github.io/).
+      Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Advised by [John Pearson, PhD](https://pearsonlab.github.io/).
       
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
-    
+    button:
+      text: 'Read Dissertation Abstract'
+      url: 'https://www.proquest.com/docview/3252071748'
+
   - area: Concurrent MS Electrical & Computer Engineering (ECE): Data Analytics and Machine Learning
     institution: Duke University
     date_start: 2018-09-01
@@ -85,10 +86,17 @@ education:
     date_end: 2018-05-01
     summary: |
       Honors and awards included:
-      - Highest Honors (_summa cum laude_) in Neuroscience & Behavioral Biology awarded to my Honors Thesis 
+      - Highest Honors in Neuroscience & Behavioral Biology awarded to my Honors Thesis 
       - Nu Rho Sci (Neuroscience) Honor Society
       - Phi Sigma Tau (Philosophy) Honor Society
       - Dean’s List Fall 2017
+
+      Honors Thesis: _Low-Dimensional Mapping of Corticostriatal Circuitry Dynamics Underlying Pair_. Advised by [Gordon Berman, PhD](https://faculty.college.emory.edu/sites/berman/).
+      
+    button:
+      text: 'Read Honors Thesis'
+      url: 'https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en'
+
   - area: AA Arts & Sciences
     institution: Oxford College of Emory University
     date_start: 2014-09-01
@@ -98,6 +106,7 @@ education:
       - Alpha Epsilon Upsilon (General Academic) Honor Society
       - William Harrison Hightower, Jr. Scholarship
       - Merit List Fall 2014-Spring 2016
+
 # work:
 #   - position: Director of Cloud Infrastructure
 #     company_name: GenCoin
@@ -131,7 +140,7 @@ skills:
         description: 'JAX, Jupyter, matplotlib, numpy, opencv, pandas, pytest, scikit-learn, scipy, statsmodels (in alphabetical order, equal fluency)'
         percent: 100
         icon: python jupyter matplotlib numpy opencv pandas pytest scikitlearn
-      - name: Machine and Deep Learning Model Deployment and Development
+      - name: Machine and Deep Learning Model Development and Deployment
         description: 'PyTorch, TensorFlow'
         percent: 100
         icon: pytorch tensorflow
@@ -152,7 +161,7 @@ skills:
         percent: 100
         icon: matlab
       - name: LabVIEW
-        description: 'DAQ integration, 0MQ message-passing library'
+        description: 'DAQ integration, \0{}MQ message-passing library'
         percent: 100
         icon: labview
       - name: bash/zsh
@@ -213,10 +222,10 @@ awards:
     awarder: 'National Science Foundation'
     icon: nsf
 
-    # summary: |
-    #
+    summary: |
+      NSF GRFP Research Proposal Title: _The Effects of Metabolic Regulation on Local Field Potentials in the Basolateral Amygdala during Emotional Behaviors_. Advised by Donald (Tig) Rainnie, PhD.
 
-  - title: 'Highest Honors (_summa cum laude_) in Neuroscience and Behavioral Biology'
+  - title: 'Highest Honors in Neuroscience and Behavioral Biology'
     url: https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en
     date: '2018-04'
     awarder: 'Emory University'
@@ -227,4 +236,4 @@ awards:
 ---
 
 ## About Me
-Elizabeth (Liz) A. O'Gorman is a computational neurobiologist with a Ph.D. in Neurobiology and a concurrent M.S. in Electrical and Computer Engineering concentrating in Data Analytics and Machine Learning from Duke University. Her research interests include developing and using state-of-the-art computational methods to discover fundamental algorithms and computations used by the brain to produce adaptive behaviors. Methods confine and compliment scientific discoveries --- to that end, her objective is to methods to advance science. Most recently, as a computationalist, she has developed methods for adaptive neuroscience experimentation, and as an experimentalist, she has used these methods to reinforce adaptive behaviors. Ultimately, she is interested in how environment and experience shape adaptive behaviors throughout the lifespan using computational and experimental approaches.
+Elizabeth (Liz) A. O'Gorman is a computational neurobiologist with a Ph.D. in Neurobiology and a concurrent M.S. in Electrical and Computer Engineering concentrating in Data Analytics and Machine Learning from Duke University. Her research interests include developing and using state-of-the-art computational methods to discover fundamental algorithms and computations used by the brain to produce adaptive behaviors. Methods confine and compliment scientific discoveries --- to that end, her objective is to develop and use novwel methods to advance science. Most recently, as a computationalist, she has developed methods for adaptive neuroscience experimentation, and as an experimentalist, she has used these methods to reinforce adaptive behaviors. Ultimately, she is interested in how environment and experience shape adaptive behaviors throughout the lifespan using computational and experimental approaches.
