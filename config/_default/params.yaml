@@ -1,34 +1,103 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Tutorial: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
 hugoblox:
   schema: "2.0"
   identity:
+    # Site name - shown in navbar, footer, copyright, and browser title by default
     name: Elizabeth (Liz) A. O'Gorman, PhD
+    # Legal entity for copyright notices (defaults to name if not set)
+    organization: ""
+    # Schema.org type for structured data
     type: person
+    # Short tagline displayed on your site
     tagline: Computational Neurobiologist
+    # Site meta description for search engines and social sharing
     description: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Color and visual design system
+  # ────────────────────────────────────────────────────────────────────────────
   theme:
+    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    pack: synthwave
+    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    pack: "synthwave"
+    # Optional: Override theme pack colors
     colors:
-      primary: ""
+      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
-      neutral: ""
+      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+    # Optional: Mode-specific color overrides
+    colors_light: {}
+    colors_dark: {}
+    # Optional: Semantic surface color overrides
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # Font and text sizing
+  # ────────────────────────────────────────────────────────────────────────────
   typography:
+    # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
     font: sans
-    size: md
+    # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
+    size: "md"
+  
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # Spacing and shape tokens
+  # ────────────────────────────────────────────────────────────────────────────
   layout:
-    radius: md
-    spacing: comfortable
-    avatar_shape: rounded
-  header:
+    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
+    radius: "md"
+    # Spacing density: 'compact', 'comfortable', or 'spacious'
+    spacing: "comfortable"
+    # Avatar shape in author profiles
+    avatar_shape: rounded                # circle | square | rounded
+  
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # Site header and navigation bar
+  # ────────────────────────────────────────────────────────────────────────────
+  header:    
     enable: true
-    style: navbar
+    # Header style variant
+    style: navbar                       # navbar | navbar-simple | minimal
+    # Stick to top on scroll
     sticky: true
-    align: center
+    # Menu alignment
+    align: center                       # left | center | right    
     search: true
     theme_toggle: true
+    # Call-to-action button
+    cta:
+      enable: false
+      text: ""
+      url: ""
+  
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # Site footer
+  # ────────────────────────────────────────────────────────────────────────────
   footer:
-    style: minimal
+    # Footer style variant
+    style: minimal                      # minimal | columns | centered
     language_switcher: true
+    # Custom footer text (HTML supported)
+    text: ""
   copyright:
     notice: © {2026} {Elizabeth (Liz) A. O'Gorman, PhD}. All rights reserved.
   content:
