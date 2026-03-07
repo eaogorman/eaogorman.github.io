@@ -2,7 +2,7 @@ schema: "hugoblox/author/v1"
 slug: "eaogorman"
 is_owner: true
 name:
-  display: "Elizabeth (Liz) A. O'Gorman, PhD"
+  display: "Elizabeth (Liz) A. O'Gorman, Ph.D."
   given: "Elizabeth"
   family: "O'Gorman"
   middle: "Anne"
@@ -13,7 +13,7 @@ bio: "Elizabeth (Liz) A. O'Gorman is a computational neurobiologist with a Ph.D.
 status:
   icon: "🔬"
 postnominals:
-  - "PhD"
+  - "Ph.D."
 
 links:
   - icon: "hero/at-symbol"
@@ -23,7 +23,7 @@ links:
     url: "https://github.com/eaogorman"
     label: "GitHub"
   - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/eaog"
+    url: "https://www.linkedin.com/in/eaog/"
     label: "LinkedIn"
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com/citations?user=9y-kRQcAAAAJ&hl=en"
