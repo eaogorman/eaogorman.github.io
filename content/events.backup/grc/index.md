@@ -17,8 +17,8 @@ abstract: 'Male zebra finches learn to produce a single, highly stereotyped song
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-22-05T20:10:00Z'
-date_end: '2024-22-05T20:20:00Z'
+date: '2024-05-22T20:10:00Z'
+date_end: '2024-05-22T20:20:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).

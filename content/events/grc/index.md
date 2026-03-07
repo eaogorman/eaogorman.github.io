@@ -4,7 +4,7 @@ event_url: https://www.grc.org/neural-mechanisms-of-acoustic-communication-confe
 location: Newry, ME
 summary: Negative reinforcement of high-dimensional zebra finch song features.
 abstract: Male zebra finches learn to produce a single, highly stereotyped song and maintain this song over the course of their adult lives using auditory feedback. Such continuous production and evaluation of song is commonly conceptualized as a variant of actor-critic reinforcement learning, requiring the precise coordination of dozens of muscles with millisecond precision. Much of what we know of the underlying algorithms comes through studies of adult male zebra finches adapting to white noise feedback triggered by either high or low-pitch variants of harmonic stack syllables — a single perturbation of a single syllable of a crystallized song. However, zebra finch song is spectrally and temporally rich, with numerous degrees of freedom, and the learning process must tackle this complexity. Thus, to probe the full range of this complexity, new methods are needed for adaptively intervening in the learning process. To this end, we developed a pipeline to quantify and selectively manipulate dimensions of variance within the high- dimensional song space in real time. Using the improv analysis platform, we acquired raw audio from male adults as they practiced in sound-isolated boxes, computed spectrograms from fixed-width segments, and encoded them using a pretrained variational autoencoder (VAE), an unsupervised representation learning method, with resultant latent representations used to trigger delivery of stimuli to the bird. Using asynchronous and parallelized processing, analysis can be performed in 7.396 ms ± 0.917 ms per 120 ms of song, allowing us to update embeddings as frequently as every 10 ms. Even accounting for network latencies, the lag between data acquisition and feedback to the bird is 15.164 ms ± 2.409 ms, well within behaviorally relevant timing. As a result, this pipeline can be used to study adaptations of song in response to algorithmically guided perturbations, allowing us to test fundamental learning reinforcement learning hypotheses in a tractable high-dimensional system.
-date: 2024-22-05T20:10:00Z
+date: 2024-05-22T20:10:00Z
 authors:
   - eaogorman
 tags: []
@@ -20,8 +20,8 @@ links:
 slides: ""
 projects:
   - improv-ava
-event_start: 2024-22-05T20:10:00Z
-event_end: 2024-22-05T20:20:00Z
+event_start: 2024-05-22T20:10:00Z
+event_end: 2024-05-22T20:20:00Z
 event_all_day: false
 event_name: Gordon Research Conference and Gordon Research Seminar on the Neural Mechanisms of Acoustic Communication (NMAC GRC and GRS)
 ---
