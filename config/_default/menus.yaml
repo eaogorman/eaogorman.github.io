@@ -12,7 +12,7 @@ main:
     url: /papers
     weight: 30
   - name: Presentations
-    url: /talks
+    url: /presentations
     weight: 40
   - name: Skills
     url: /skills
