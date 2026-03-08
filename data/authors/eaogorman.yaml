@@ -42,7 +42,7 @@ education:
     institution: "Duke University"
     start: "2018"
     end: "2025"
-    summary: "Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Advised by [John Pearson, Ph.D.](https://pearsonlab.github.io/)."
+    summary: "Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Advised by [John Pearson, Ph.D.](https://pearsonlab.github.io/)"
     button:
       text: "Read Dissertation Abstract"
       url: "https://www.proquest.com/docview/3252071748"
@@ -56,7 +56,7 @@ education:
     institution: "Emory University"
     start: "2014"
     end: "2018"
-    summary: "Honors Thesis: _Low-Dimensional Mapping of Corticostriatal Circuitry Dynamics Underlying Pair_. Advised by [Gordon Berman, Ph.D.](https://faculty.college.emory.edu/sites/berman/)."
+    summary: "Honors Thesis: _Low-Dimensional Mapping of Corticostriatal Circuitry Dynamics Underlying Pair_. Advised by [Gordon Berman, Ph.D.](https://faculty.college.emory.edu/sites/berman/)"
     button:
       text: "Read Honors Thesis"
       url: "https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en"
