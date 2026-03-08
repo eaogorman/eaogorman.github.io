@@ -95,7 +95,7 @@
 {{ if eq (printf "%T" $bio_raw) "string" }}{{ $bio_override = $bio_raw }}{{ end }}
 
 {{ $role := $author.role | default $tagline }}
-{{ $bio := $author.bio | default $bio_override }}
+{{ $bio := $bio_override | default $author.bio }}
 
 {{ $typewriter_strings := slice }}
 {{ $strings_raw := index $typewriter "strings" }}
@@ -161,7 +161,7 @@
   {{ end }}
 {{ end }}
 
-<div class="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+<div class="relative min-h-[60vh] flex items-start justify-center overflow-hidden">
   
   {{/* Background Effects - only visible in dark mode */}}
   <div class="absolute inset-0 pointer-events-none dark:block hidden">
