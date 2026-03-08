@@ -161,6 +161,8 @@
   {{ end }}
 {{ end }}
 
+{{/* adjust min-h-[60vh] for more or less space, between 50-80vh */}}
+{{/* items-center to item-start so content starts near top of container instead of being vertically centered in tall box */}}
 <div class="relative min-h-[60vh] flex items-start justify-center overflow-hidden">
   
   {{/* Background Effects - only visible in dark mode */}}
@@ -180,7 +182,8 @@
     <div class="absolute bottom-1/4 -right-20 w-80 h-80 bg-secondary-100 rounded-full blur-3xl"></div>
   </div>
 
-  <div class="relative z-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-20 {{ if eq $style "centered" }}text-center{{ end }}">
+  {{/* py-20 py-16 py-12 affects padding inside content wrapper, separate top/bottom padding would be pt-8/pb-12, for example */}}
+  <div class="relative z-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12 {{ if eq $style "centered" }}text-center{{ end }}">
     
     {{ if eq $style "split" }}
     {{/* Split layout with avatar on side */}}
