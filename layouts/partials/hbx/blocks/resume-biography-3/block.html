@@ -430,7 +430,7 @@
             {{ end }}
             <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $education_heading | markdownify }}</h3>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             {{ range $education }}
             {{ if reflect.IsMap . }}
             {{ $degree := "" }}
@@ -460,7 +460,7 @@
                 </div>
                 <div class="flex-1 flex-grow">
                   {{ if $degree }}
-                  <p class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                  <p class="text-base font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {{ $degree }}
                   </p>
                   {{ end }}
@@ -468,12 +468,34 @@
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">{{ $year }}</p>
                   {{ else if $start }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-                      {{ $start }}
-                      {{ if $end }}<br>{{ $end }}{{ end }}
+                      {{ $start }}{{ if $end }} &mdash; {{ $end }}{{ end }}
                     </p>
                   {{ end }}
                   {{ if $institution }}
                     <p class="text-gray-700 dark:text-gray-300 text-base">{{ $institution }}</p>
+                  {{ end }}
+                  {{/* Education summary (e.g., dissertation/thesis title and advisor) */}}
+                  {{ $summary := "" }}
+                  {{ with index . "summary" }}{{ $summary = printf "%v" . | strings.TrimSpace }}{{ end }}
+                  {{ if $summary }}
+                    <div class="text-gray-600 dark:text-gray-400 text-sm mt-2 prose prose-sm dark:prose-invert max-w-none">
+                      {{ $summary | markdownify }}
+                    </div>
+                  {{ end }}
+                  {{/* Education button (e.g., link to read thesis/dissertation) */}}
+                  {{ $edu_button := index . "button" }}
+                  {{ if and $edu_button (reflect.IsMap $edu_button) }}
+                    {{ $btn_text := "" }}
+                    {{ $btn_url := "" }}
+                    {{ with index $edu_button "text" }}{{ $btn_text = printf "%v" . | strings.TrimSpace }}{{ end }}
+                    {{ with index $edu_button "url" }}{{ $btn_url = printf "%v" . | strings.TrimSpace }}{{ end }}
+                    {{ if and $btn_text $btn_url }}
+                      <a href="{{ $btn_url | safeURL }}" target="_blank" rel="noopener"
+                         class="inline-flex items-center text-sm text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium mt-2 transition-colors">
+                        {{ $btn_text }}
+                        <span class="ml-1">&rarr;</span>
+                      </a>
+                    {{ end }}
                   {{ end }}
                 </div>
               </div>

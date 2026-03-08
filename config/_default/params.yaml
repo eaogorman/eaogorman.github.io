@@ -8,7 +8,7 @@ hugoblox:
   schema: "2.0"
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: Elizabeth (Liz) A. O'Gorman Ph.D.
+    name: Elizabeth (Liz) A. O'Gorman, Ph.D.
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -99,7 +99,7 @@ hugoblox:
     # Custom footer text (HTML supported)
     text: ""
   copyright:
-    notice: © {2026} {Elizabeth (Liz) A. O'Gorman Ph.D.}. All rights reserved.
+    notice: © {2026} {Elizabeth (Liz) A. O'Gorman, Ph.D.}. All rights reserved.
   content:
     math:
       enable: false
