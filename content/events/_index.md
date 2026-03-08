@@ -1,6 +1,6 @@
 ---
 # title: Recent Oral and Poster Presentations
-title: Recent Oral & Poster Presentations
+title: Presentations
 cms_exclude: true
 #url: talk
 
