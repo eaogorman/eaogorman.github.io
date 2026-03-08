@@ -21,7 +21,7 @@ sections:
         - text: Download Résumé
           url: uploads/eao_resume.pdf
       headings:
-        about: ""
+        about: "About Me"
         education: ""
         interests: ""
     design:
