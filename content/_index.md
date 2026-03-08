@@ -8,7 +8,7 @@ sections:
     id: hero
     content:
       username: eaogorman
-      bio: Computational neurobiologist with 8+ years of experience as a scientific software developer and 5+ years of experience as an experimentalist. Passionate about/committed to...
+      bio: "Computational neurobiologist with 8+ years of experience as a scientific software developer and 5+ years of experience as an experimentalist. Passionate about/committed to..."
       greeting: "Hi, I'm"
       tagline: "Computational Neurobiologist"
       show_status: true
@@ -35,4 +35,6 @@ sections:
       style: centered
       avatar_shape: rounded
       animations: true
+      name:
+        size: sm # try xs too, looks good
 ---
