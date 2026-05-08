@@ -1,6 +1,5 @@
 ---
-title: Blog
-view: article-grid
+title: Projects
 draft: true
 cascade:
   draft: true

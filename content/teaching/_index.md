@@ -7,6 +7,7 @@ draft: true
 cascade:
   - _target:
       kind: page
+    draft: true
     params:
       show_breadcrumb: true
 
