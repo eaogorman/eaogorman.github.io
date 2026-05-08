@@ -8,7 +8,7 @@ sections:
     id: hero
     content:
       username: eaogorman
-      bio: "Computational neurobiologist with 8+ years of experience as a scientific software developer and 5+ years of experience as an experimentalist. Passionate about/committed to..."
+      bio: "I work at the intersection of systems neuroscience, machine learning, and software engineering to study adaptive behavior and the brain. 8+ years of experience as a scientific software developer and 5+ years of experience as an experimentalist."
       greeting: "Hi, I'm"
       tagline: "Computational Neurobiologist"
       show_status: true
@@ -17,10 +17,12 @@ sections:
         enable: true
         prefix: "I"
         strings:
-          - "develop computational methods for neuroscience."
           - "build real-time adaptive experimentation systems."
-          - "study how the brain produces adaptive behaviors."
-          - "use machine learning to decode neural dynamics."
+          - "develop ML pipelines for neuroscience."
+          - "use ML to study and shape behavior and neural dynamics."
+          - "study how experience shapes learning and behavior."
+          - "study how the brain produces adaptive behavior."
+          - "educate and mentor across levels."
         type_speed: 60
         delete_speed: 40
         pause_time: 2500
