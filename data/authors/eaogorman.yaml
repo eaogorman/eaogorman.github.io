@@ -67,6 +67,83 @@ education:
     end: "2016"
     summary: ""
 
+experience:
+  - role: "Instructor"
+    org: "Sylvan Learning Center"
+    start: "2025-10-01"
+    end: ""
+    summary: |
+      Provided individualized K-12 instruction in math, reading, writing, and ACT/SAT test prep. Adapted to meet diverse learning needs across subjects and skill levels.
+
+  - role: "Ph.D. Graduate Research Assistant"
+    org: "Duke University — Pearson Lab"
+    start: "2022-02-01"
+    end: "2025-09-01"
+    summary: |
+      *Dissertation: Flexible, Real-Time Shaping of Zebra Finch Vocal Learning*
+
+      Advisor: John Pearson, Ph.D.
+
+      - Built adaptive, closed-loop real-time pipelines for streaming analysis and reinforcement of zebra finch vocalizations using Python, LabVIEW, and \0{}MQ
+      - Developed and deployed deep learning models (VAEs, CNNs) and ML classifiers (KNN, RF, SVM) for high-dimensional spectral and temporal song feature extraction
+      - Designed and conducted closed-loop behavioral reinforcement experiments; analyzed high-dimensional song features in response to real-time auditory feedback
+      - Supervised an undergraduate research assistant
+
+  - role: "Ph.D. Graduate Research Assistant"
+    org: "Duke University — Carlson & Dzirasa Labs"
+    start: "2019-01-01"
+    end: "2022-02-01"
+    summary: |
+      *Behavior and neural dynamics of mouse models of neuro-developmental and psychiatric disorders*
+
+      Advisors: David Carlson, Ph.D. & Kafui Dzirasa, M.D., Ph.D.
+      
+      - Developed pipelines for fine-grained behavioral and neural analysis across multiple assays using deep learning, ML, statistical topic models, and image/video processing
+      - Characterized behavioral and population-level LFP dynamics in genetic mouse models of ASD and chronic stress via spectral and time-series analysis
+      - Supervised an undergraduate CS independent study in ML for quantitative behavioral analysis (2019–2020)
+
+  - role: "Honors Undergraduate Research Assistant"
+    org: "Emory University — Berman Lab"
+    start: "2018-01-01"
+    end: "2018-08-01"
+    summary: |
+      *Honors Thesis: Low-Dimensional Mapping of Corticostriatal Circuitry Dynamics Underlying Pair Bonding*
+
+      Advisor: Gordon Berman, Ph.D.
+      
+      - Developed pipelines for high-dimensional neural data analysis using dimensionality reduction, clustering, and statistical topic models
+      - Characterized corticostriatal circuit dynamics underlying social behaviors in mouse models of ASD via multi-electrode array recordings and optogenetic manipulations
+
+  - role: "Honors Undergraduate Research Assistant"
+    org: "Emory University — Rainnie Lab"
+    start: "2015-09-01"
+    end: "2018-01-01"
+    summary: |
+      *Unpublished Honors Thesis/NSF GRFP Research Proposal: The Effects of Metabolic Regulation on Local Field Potentials in the Basolateral Amygdala during Emotional Behaviors*
+
+      Advisors: Donald Rainnie, Ph.D., Chia-Chun Hsu, Ph.D. & Teresa Madsen, Ph.D.
+      
+      Funded by the Emory University's S.I.R.E. Research Partners Program (2016–2017)
+      
+      - Assessed the role of cAMP metabolism in anxiety-like and social behaviors via intracerebroventricular infusion
+      - Developed automated pipelines to quantify social and non-social behaviors in rat models of ASD, reducing analysis time and human bias
+      - Assessed fear learning, recall, and extinction via Pavlovian fear conditioning and extinction paradigms
+
+  - role: "Summer Undergraduate Researcher"
+    org: "Georgia Institute of Technology - Forest & Payne Labs"
+    start: "2017-05-01"
+    end: "2017-10-01"
+    summary: |
+      *PEDOT:PSS microwires for selective stimulation of single cells*
+
+      Advisors: Craig Forest, Ph.D., Christine Payne, Ph.D., & Scott Thourson, Ph.D.
+      
+      Funded by the Georgia Institute of Technology's S.U.R.E. Program
+
+      - Characterized spatially selective electric fields of polymer-coated microwires using ex vivo patch-clamp electrophysiology and impedance spectroscopy
+      - Validated experimental observations against COMSOL physics simulations
+
+
 interests:
   - "Adaptive Behavior"
   - "Computational Methods Development for Neuroscience"
@@ -142,20 +219,20 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 'Travel Award'
+  - title: 'Travel Award for Oral Presenters'
     url: https://www.grc.org/neural-mechanisms-of-acoustic-communication-conference/2024/
     date: '2024-05'
     awarder: 'Gordon Research Conference and Gordon Research Seminar on the Neural Mechanisms of Acoustic Communication (NMAC GRC and GRS)'
-    icon: grc_logo
+    # icon: grc_logo
 
     # summary: |
     #
 
-  - title: 'Travel Award'
+  - title: 'Travel Award for Attendees'
     url: https://indico.flatironinstitute.org/event/2800/
     date: '2022-06'
     awarder: 'Flatiron Institute’s Center for Computational Neuroscience 2022 Workshop on Calcium & Voltage Imaging Analysis Travel Award from the Simons Foundation'
-    icon: caiman_workshop
+    # icon: caiman_workshop
 
     # summary: |
     #
@@ -164,16 +241,16 @@ awards:
     url: https://news.emory.edu/stories/2018/05/er_nsf_fellowship/campus.html
     date: '2018-2023'
     awarder: 'National Science Foundation'
-    icon: nsf
+    # icon: nsf
 
     summary: |
-      NSF GRFP Research Proposal Title: _The Effects of Metabolic Regulation on Local Field Potentials in the Basolateral Amygdala during Emotional Behaviors_. Advised by Donald (Tig) Rainnie, PhD.
+      NSF GRFP Research Proposal Title: _The Effects of Metabolic Regulation on Local Field Potentials in the Basolateral Amygdala during Emotional Behaviors_. Advised by Donald (Tig) Rainnie, Ph.D.
 
   - title: 'Highest Honors in Neuroscience and Behavioral Biology'
     url: https://etd.library.emory.edu/concern/etds/b8515n39j?locale=en
     date: '2018-04'
     awarder: 'Emory University'
-    icon: emory
+    # icon: emory
 
     # summary: |
     #   One of twelve of seventen (12 Highest, 5 High) undergraduates in the Neuroscience and Behavioral Biology Honors Program at Emory University who received Highest Honors in Neuroscience and Behavioral Biology awarded to my written thesis and oral defense judged by a committee of three Emory University faculty members: Committee: Gordon Berman, PhD (advisor); Robert Liu, PhD; Joseph Manns, PhD; Samuel (Sam) Sober, PhD).
