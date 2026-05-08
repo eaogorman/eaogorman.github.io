@@ -99,7 +99,7 @@ hugoblox:
     # Custom footer text (HTML supported)
     text: ""
   copyright:
-    notice: © {2026} {Elizabeth (Liz) A. O'Gorman, Ph.D.}. All rights reserved.
+    notice: © 2026 Elizabeth (Liz) A. O'Gorman, Ph.D. All rights reserved.
   content:
     math:
       enable: false
