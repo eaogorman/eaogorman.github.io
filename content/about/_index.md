@@ -30,6 +30,7 @@ sections:
         size: medium
         shape: rounded
   - block: collection
+    active: false
     content:
       title: Recent Publications
       text: ""
