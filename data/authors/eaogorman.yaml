@@ -44,8 +44,8 @@ education:
     end: "2025"
     summary: "Dissertation: _Flexible, Real-Time Shaping of Zebra Finch Vocal Learning_. Advised by [John Pearson, Ph.D.](https://pearsonlab.github.io/)"
     button:
-      text: "Read Dissertation Abstract"
-      url: "https://www.proquest.com/docview/3252071748"
+      text: "Read Dissertation"
+      url: "https://hdl.handle.net/10161/33380"
       icon: ""
   - degree: "Concurrent MS in Electrical & Computer Engineering - Data Analytics & Machine Learning"
     institution: "Duke University"
