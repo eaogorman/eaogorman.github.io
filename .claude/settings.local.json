@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io log --all --oneline)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show --stat HEAD)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io branch -a)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io diff main..upgrade -- .github/workflows/build.yml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io status)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:.github/workflows/build.yml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:go.mod)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:hugoblox.yaml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:.github/workflows/)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io ls-tree main .github/workflows/)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io diff main upgrade --name-status .github/)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:.github/workflows/deploy.yml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show upgrade:.github/workflows/deploy.yml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io diff main upgrade -- hugoblox.yaml package.json go.mod config/)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io diff main upgrade -- package.json)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:package.json)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show main:netlify.toml)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io log -1 --format=\"%H %s\" a07f61c)",
+      "Bash(git -C /Users/eaogorman/Files/CV/website/eaogorman.github.io show a07f61c)",
+      "Bash(gh run list --limit 5)",
+      "Bash(hugo version)",
+      "Bash(hugo --minify)",
+      "Bash(brew list go)",
+      "Bash(brew install go)"
+    ]
+  }
+}
